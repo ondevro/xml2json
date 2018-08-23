@@ -1,0 +1,22 @@
+{
+    "name": "XML2JSON",
+    "description": "Converting XML data to JSON format without extension",
+    "keywords": ["XML", "JSON", "convert"],
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Iulian Marian Nistor",
+            "email": "contact@ondev.ro",
+            "role": "Main Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+	"autoload": {
+		"psr-4": {
+			"App\\": "app/",
+			"App\\Classes\\": "app/classes/"
+		}
+	}
+}
